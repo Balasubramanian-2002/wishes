@@ -1,0 +1,53 @@
+body {
+    background-color: #f0e68c;
+    font-family: 'Arial, sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 3em;
+    color: #ff69b4;
+}
+
+.card {
+    margin: 20px 0;
+}
+
+.cake-image {
+    width: 50%;
+    max-width: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    font-size: 1.5em;
+    color: #ff4500;
+}
+
+.wish-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ff6347;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.wish-button:hover {
+    background-color: #ff4500;
+}
